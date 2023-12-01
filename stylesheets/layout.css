@@ -1,0 +1,74 @@
+section {
+    overflow: hidden;
+    display: flex;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.h1literal {
+    display: block;
+    position: relative;
+    height: 180px;
+    width: 100%;
+    animation: h1font linear 10s infinite;
+}
+
+.h1battle {
+    display: block;
+    position: relative;
+    height: 180px;
+    width: 100%;
+    animation: h1font reverse linear 10s infinite;
+}
+
+.line_yellow {
+    width: 1440px;
+    height: 180px;
+    display: block;
+    position: relative;
+    background-image: url(../images/line_yellow.svg);
+    animation: line_yellow linear 1s infinite;
+
+}
+
+.section_line_blue {
+    display: flex;
+    background-color: #25FC22;
+    width: 1440px;
+
+}
+
+.line_logo {
+    height: 180px;
+    display: block;
+    position: relative;
+    background-image: url(../images/line_logo.svg);
+    animation: line_logo linear 2s infinite;
+}
+
+.line_blue {
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+}
+
+.line_blue img {
+    display: block;
+    position: relative;
+    animation: line_blue linear 1s infinite;
+}
+
+.color_yellow {
+    width: 180px;
+    height: 180px;
+    background-color: #F5F747;
+}
+
+.letter_a {
+    width: 180px;
+    height: 180px;
+    background-image: url(../images/letter_a.svg);
+}

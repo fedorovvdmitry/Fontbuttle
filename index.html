@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
    <section>
-    <img style="position: absolute;" src="images/frame.png" alt="">
+    <img style="position: absolute; z-index: 1;" src="images/frame.png" alt="">
    </section>
-   <section style="display: flex;">
-        <div style="height: 180px; width: 180px; background-color: blue;"></div>
-        <div style="height: 180px; width: 180px; background-color: blue;"></div>
+   <section style="display: flex; flex-direction: column;">
+        <div class="h1literal">
+            <img src="images/literal.svg" alt="">
+        </div>
+        <div class="h1battle">
+            <img src="images/battle.svg" alt="">
+        </div>
+   </section>
+   <section>
+        <div class="line_yellow"></div>
+   </section>
+   <section class="section_line_blue">
+        <div style="width: 1260px; overflow: hidden;">
+            <div class="line_logo"></div>
+        </div>
+        <div class="line_blue">
+            <img src="images/line_blue.svg" alt="">
+        </div>
+   </section>
+   <section class="section five">
+    <div class="color_yellow"></div>
+    <div style="height: 180px; width: 180px;"></div>
+    <div class="letter_a"></div>
    </section>
 </body>
 </html>

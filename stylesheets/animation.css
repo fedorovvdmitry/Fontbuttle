@@ -1,0 +1,48 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes h1font {
+    0% {
+        left: -1766px;
+        top: auto;
+    }
+    100% {
+        left: 0px;
+        top: auto;
+    }
+}
+
+@keyframes line_yellow {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 260px;
+    }
+}
+
+@keyframes line_logo {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -180px;
+    }
+}
+
+@keyframes line_blue {
+    0% {
+        top: -180px;
+    }
+    100% {
+        top: 5px;
+        
+    }
+    
+}
