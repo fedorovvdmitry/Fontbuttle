@@ -23,21 +23,7 @@ section {
 
 }
 
-.h1literal {
-    display: block;
-    position: relative;
-    height: 180px;
-    width: 100%;
-    animation: h1font linear 10s infinite;
-}
 
-.h1battle {
-    display: block;
-    position: relative;
-    height: 180px;
-    width: 100%;
-    animation: h1font reverse linear 10s infinite;
-}
 
 .line_yellow {
     width: 1440px;
@@ -90,6 +76,7 @@ section {
 }
 */
 section {
+    width: 100vw;
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -104,16 +91,40 @@ section {
     height: 12.5vw;
 }
 
+h1 {
+    font-family: "Chava-Regular";
+    font-size: 17.3vw;
+    width: auto;
+}
+
 p {
     font-family: "Chava-Regular";
     font-size: 2.5vw;
 }
 
+.line_first  {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    display: block;   
+    top: -3.09vw;
+}
+
+.h1battle {
+    display: block;
+    position: relative;
+    height: 180px;
+    width: 100%;
+    animation: h1font reverse linear 10s infinite;
+}
+
+/* Блоки */
+
 .first .block:nth-of-type(1) {
     background-color: #F726F3;
 }
 
-.first .block:nth-of-type(3) {
+.first .block:nth-of-type(2) {
     background-color: #25FC21;
 }
 
@@ -189,13 +200,13 @@ p {
     background-color: #F726F3;
 }
 
-.fifth .block img {
+.fifth .block img:nth-of-type(2) {
     width: 12.5vw;
     height: 12.5vw;
     transition: 0.3s;
 }
 
-.fifth .block img:hover {
+.fifth .block img:nth-of-type(2):hover {
     transform: rotate(90deg);
     transition: 0.6s;
 }
@@ -207,9 +218,10 @@ p {
 .fifth .block:nth-of-type(6) {
     background-color: #F726F3;
 }
-.fifth .block:nth-of-type(7) {
+.fifth .block_x2:nth-of-type(7) {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .sixth .block:nth-of-type(1) {
@@ -391,9 +403,14 @@ p {
 }
 
 .sixteenth .block_x2 img {
-    height: 8vw; 
+    height: 7vw; 
 }
 
-.sixteenth .block:nth-of-type(8) {
+.sixteenth .block:nth-of-type(5) {
     background-color: #F5F747;
+    background-image: url(../images/pixels_blue.svg);
+}
+
+.sixteenth .block:nth-of-type(5):hover {
+    background-color: #25FC21;
 }
