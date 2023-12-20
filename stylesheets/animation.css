@@ -10,11 +10,9 @@
 @keyframes h1font {
     0% {
         left: -1766px;
-        top: auto;
     }
     100% {
         left: 0px;
-        top: auto;
     }
 }
 
@@ -38,10 +36,10 @@
 
 @keyframes line_blue {
     0% {
-        top: -180px;
+        top: -7vw;
     }
     100% {
-        top: 5px;
+        top: 2vw;
         
     }
     
