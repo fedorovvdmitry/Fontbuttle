@@ -90,6 +90,10 @@ p {
     background-color: black;
 }
 
+.blue {
+    background-color: #0D2CD2;
+}
+
 .flex_block {
     display: flex;
     align-items: center;
@@ -253,16 +257,153 @@ p {
     background-repeat: no-repeat;
 }
 
-.literal16_23 {
+.literal23 {
     background-image: url(../images/x.svg);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.literal16_19 {
-    background-image: url(../images/с.svg);
+.literal19 {
+    width: 12.5vw;
+    height: 12.5vw;
+    display: block;
+    animation: letter_c 2s steps(1) infinite;
+    background-size: 100%;
+    background-image: url(../images/letter_c_180.svg);
+}
+
+.literal19:hover {
+    animation-play-state: paused;
+}
+
+.green_figure {
+    background-image: url(../images/gree_figure.svg);
+    background-size: 102%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gray_figure {
+    background-image: url(../images/gray_figure.svg);
+    background-size: 102%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal22 {
+    background-image: url(../images/ф.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal6 {
+    background-image: url(../images/e.svg);
     background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pixels2 {
+    background-image: url(../images/pixels_green2.svg);
+    background-size: 102%;
+}
+
+.pixels3 {
+    background-image: url(../images/pixels_yellow.svg);
+    background-size: 102%;
+}
+
+.literal8 {
+    background-image: url(../images/ж.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal13 {
+    background-image: url(../images/л.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal13:hover {
+    background-color: #25FC21;
+    background-image: url(../images/л_black.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heart_black {
+    background-image: url(../images/heart_black.svg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: heartbeat 1s infinite;
+}
+
+.literal21 {
+    background-image: url(../images/у.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: letter_y 2s steps(1) infinite;
+    animation-play-state: paused;
+}
+
+.literal21:hover {
+    animation-play-state: running;
+}
+
+.literal9 {
+    width: 6.25vw;
+    height: 6.25vw;
+    display: block;
+    background-image: url(../images/з.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal6_2 {
+    background-image: url(../images/е.svg);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal33 {
+    background-image: url(../images/я.svg);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: scale 0.2s ease-out infinite;
+    animation-play-state: paused;
+}
+
+.literal33:hover {
+    animation-play-state: running;
+}
+
+.literal19_modul {
+    background-image: url(../images/c_modul.svg);
+    background-size: 102%;
+    background-repeat: no-repeat;
+}
+
+.literal1 {
+    background-image: url(../images/А.svg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal2 {
+    background-image: url(../images/б.svg);
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -288,46 +429,8 @@ p {
 
 /* Блоки */
 
-
-
-.fifth .block:nth-of-type(1) {
-    background-color: #F5F747;
-}
-
-.fifth .block:nth-of-type(2) {
-    background-color: #F726F3;
-}
-
-
-.fifth .block:nth-of-type(4) {
-    background-color: #F726F3;
-}
-
-.fifth .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.sixth .block:nth-of-type(1) {
-    background-color: #F726F3;
-}
-
-.sixth .block:nth-of-type(2) {
-    background-color: #25FC21;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .sixth .block img {
     height: 6vw; 
-}
-
-.sixth .block:nth-of-type(3) {
-    background-color: #F726F3;
-}
-
-.sixth .block:nth-of-type(5) {
-    background-color: #F726F3;
 }
 
 .sixth .block:nth-of-type(6) {
@@ -335,162 +438,10 @@ p {
     background-size: 102%;
 }
 
-.sixth .block:nth-of-type(7) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sixth .block:nth-of-type(8) {
-    background-color: #F726F3;
-}
-
-.seventh .block:nth-of-type(2) {
-    background-color: #F726F3;
-}
-
-.seventh .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.seventh .block:nth-of-type(7) {
-    background-color: #F726F3;
-}
-
-.eighth .block:nth-of-type(1) {
-    background-color: #F726F3;
-}
-
-.eighth .block:nth-of-type(2) {
-    background-color: black;
-}
-
-.eighth .block:nth-of-type(3) {
-    background-color: #F726F3;
-}
-
-.eighth .block:nth-of-type(4) {
-    background-color: #F726F3;
-}
-
-.eighth .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.ninth .block:nth-of-type(4) {
-    background-color: #F726F3;
-}
-
-.ninth .block:nth-of-type(5) {
-    background-color: #F726F3;
-}
-
-.tenth .block:nth-of-type(2) {
-    background-color: #F726F3;
-}
-
-.tenth .block:nth-of-type(5) {
-    background-color: black;
-}
-
-.tenth .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.tenth .block:nth-of-type(8) {
-    background-color: #F726F3;
-}
-
-.eleventh .block:nth-of-type(1) {
-    background-color: #F726F3;
-}
-
-.eleventh .block:nth-of-type(3) {
-    background-color: #F726F3;
-}
-
-.eleventh .block:nth-of-type(5) {
-    background-color: #F726F3;
-}
-
-.twelfth .block:nth-of-type(1) {
-    background-color: #F726F3;
-}
-
-.twelfth .block:nth-of-type(4) {
-    background-color: #F726F3;
-}
-
-.twelfth .block:nth-of-type(5) {
-    background-color: #F726F3;
-}
-
-.twelfth .block:nth-of-type(7) {
-    background-color: #F726F3;
-}
-
-.twelfth .block:nth-of-type(8) {
-    background-color: #F5F747;
-}
-
-.thirteenth .block:nth-of-type(2) {
-    background-color: #F726F3;
-}
-
-.thirteenth .block:nth-of-type(4) {
-    background-color: #F726F3;
-}
-
-.thirteenth .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.thirteenth .block:nth-of-type(8) {
-    background-color: #F726F3;
-}
-
-.fourteenth .block:nth-of-type(3) {
-    background-color: #F726F3;
-}
-
-.fourteenth .block:nth-of-type(6) {
-    background-color: #25FC21;
-}
-
-.fourteenth .block:nth-of-type(7) {
-    background-color: #F726F3;
-}
-
-.fifteenth .block:nth-of-type(1) {
-    background-color: #F726F3;
-}
-
-.fifteenth .block:nth-of-type(2) {
-    background-color: #F726F3;
-}
-
-.fifteenth .block:nth-of-type(5) {
-    background-color: #F726F3;
-}
-
-.fifteenth .block:nth-of-type(6) {
-    background-color: #F726F3;
-}
-
-.fifteenth .block:nth-of-type(7) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .fifteenth .block img {
     height: 6vw; 
 }
-
-.fifteenth .block:nth-of-type(8) {
-    background-color: #F726F3;
-}
-
 
 
 .sixteenth img {

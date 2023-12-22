@@ -44,3 +44,81 @@
     }
     
 }
+
+@keyframes letter_c {
+    0% {
+        background-image: url(../images/letter_c_1.svg);
+    }
+    10% {
+        background-image: url(../images/letter_c_2.svg);
+    }
+    20% {
+        background-image: url(../images/letter_c_3.svg);
+    }
+    30% {
+        background-image: url(../images/letter_c_4.svg);
+    }
+    40% {
+        background-image: url(../images/letter_c_5.svg);
+    }
+    50% {
+        background-image: url(../images/letter_c_6.svg);
+    }
+    60% {
+        background-image: url(../images/letter_c_7.svg);
+    }
+    70% {
+        background-image: url(../images/letter_c_8.svg);
+    }
+    80% {
+        background-image: url(../images/letter_c_9.svg);
+    }
+    90% {
+        background-image: url(../images/letter_c_10.svg);
+    }
+    100% {
+        background-image: url(../images/letter_c_1.svg);
+    }
+}
+
+@keyframes heartbeat {
+    0% {
+      transform: scale( 1 );    
+    }
+    20% {
+      transform: scale( 1.25 ) 
+    } 
+    40% {
+      transform: scale( 1.5 ) 
+    }
+}
+
+@keyframes scale {
+    0% {
+      transform: scale( 1 );    
+    }
+    50% {
+      transform: scale( 1.5 );    
+    }
+    100% {
+        transform: scale( 1 );    
+      }
+}
+
+@keyframes letter_y {
+    0% {
+        background-image: url(../images/У.svg);
+    }
+    25% {
+        background-image: url(../images/у2.svg);
+    }
+    50% {
+        background-image: url(../images/у3.svg);
+    }
+    75% {
+        background-image: url(../images/у4.svg);
+    }
+    100% {
+        background-image: url(../images/У.svg);
+    }
+}
