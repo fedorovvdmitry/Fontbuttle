@@ -4,8 +4,7 @@
 
     section {
         display: flex;
-        flex-wrap: wrap;	
-        overflow: hidden;
+        flex-wrap: wrap;
     }
 
     .block {
@@ -51,9 +50,10 @@
     }
 
     .line_third {
-        width: auto;
+        width: calc(25vw*4);
         height: 25vw;
         top: 50vw;
+        overflow-x: hidden;
     }
 
     .container_line_yellow {
