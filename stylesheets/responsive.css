@@ -14,8 +14,17 @@
         overflow: hidden;
     }
 
+    .block_x2 {
+        width: calc(25vw*2);
+        height: 25vw;
+    }
+
     h1 {
         font-size: 35vw;
+    }
+
+    p {
+        font-size: 4vw;
     }
 
     .line_first {
@@ -66,12 +75,45 @@
         }
     }
 
+    .line_blue {
+        height: 60vw;
+    }
+
+    .line_blue_vertical {
+        width: 25vw;
+        height: 50vw;
+        top: 125vw;
+        right: 0vw;
+    }
+
     .line_fourth {
         display: none;
     }
     
+    #literal1 {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    #literal29 {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .sixth .block img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .literal21 {
+        width: 25vw;
+        height: 25vw;
+    }
     
     /* скрываем последние 4 блока в первой секции */
+    .first .block:nth-of-type(4) {
+        display: none;
+    }
     .first .block:nth-of-type(5) {
         display: none;
     }
@@ -88,15 +130,12 @@
     .second .block:nth-of-type(5) {
         display: none;
     }
-    
     .second .block:nth-of-type(6) {
         display: none;
     }
-
     .second .block:nth-of-type(7) {
         display: none;
     }
-
     .second .block:nth-of-type(8) {
         display: none;
     }
@@ -104,20 +143,21 @@
     .third .block:nth-of-type(5) {
         display: none;
     }
-    
     .third .block:nth-of-type(6) {
         display: none;
     }
-
     .third .block:nth-of-type(7) {
         display: none;
     }
-
     .third .block:nth-of-type(8) {
         display: none;
     }
 
     .fourth {
+        display: none;
+    }
+
+    .sixth .block:nth-of-type(5) {
         display: none;
     }
 
