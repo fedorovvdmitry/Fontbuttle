@@ -310,6 +310,11 @@ p {
     background-size: 102%;
 }
 
+.literal32 {
+    width: 6vw;
+    height: 6vw;
+}
+
 .literal8 {
     background-image: url(../images/ж.svg);
     background-size: 70%;
