@@ -1,0 +1,137 @@
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { 
+    body { min-width: 320px;
+	}
+
+    section {
+        display: flex;
+        flex-wrap: wrap;	
+        overflow: hidden;
+    }
+
+    .block {
+        width: 25vw;
+        height: 25vw;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 35vw;
+    }
+
+    .line_first {
+        height: 12.5vw;
+        top: 0vw;
+    }    
+
+    .line_first {
+        height: 25vw;
+    }
+    
+
+    .line_literal {
+        top: -6vw;
+    }
+
+    .line_second {
+        height: 25vw;
+        top: 25vw;
+    }
+
+    .line_battle {
+        top: -6vw;
+    }
+
+    .line_third {
+        width: auto;
+        height: 25vw;
+        top: 50vw;
+    }
+
+    .container_line_yellow {
+        width: 180vw;
+        height: 25vw;
+    }
+
+    .line_yellow {
+        height: 100%;
+        width: 100%;
+    }
+
+    @keyframes line_yellow {
+        0% {
+            left: -250px;
+        }
+        100% {
+            left: 20px;
+        }
+    }
+
+    .line_fourth {
+        display: none;
+    }
+    
+    
+    /* скрываем последние 4 блока в первой секции */
+    .first .block:nth-of-type(5) {
+        display: none;
+    }
+    .first .block:nth-of-type(6) {
+        display: none;
+    }
+    .first .block:nth-of-type(7) {
+        display: none;
+    }
+    .first .block:nth-of-type(8) {
+        display: none;
+    }
+
+    .second .block:nth-of-type(5) {
+        display: none;
+    }
+    
+    .second .block:nth-of-type(6) {
+        display: none;
+    }
+
+    .second .block:nth-of-type(7) {
+        display: none;
+    }
+
+    .second .block:nth-of-type(8) {
+        display: none;
+    }
+    
+    .third .block:nth-of-type(5) {
+        display: none;
+    }
+    
+    .third .block:nth-of-type(6) {
+        display: none;
+    }
+
+    .third .block:nth-of-type(7) {
+        display: none;
+    }
+
+    .third .block:nth-of-type(8) {
+        display: none;
+    }
+
+    .fourth {
+        display: none;
+    }
+
+}
+
+@media screen and (max-with: 767px) and (orientation: portrait){
+    body {
+		display: flex;
+        flex-wrap: wrap;
+	}
+
+    .block {
+        width: 25vw;
+        height: 25vw;
+        overflow: hidden;
+    }
+}

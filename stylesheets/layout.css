@@ -332,6 +332,13 @@ p {
     background-repeat: no-repeat;
 }
 
+.svg-elem-1 {
+    -webkit-animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s alternate infinite,
+                         animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8salternate infinite;
+            animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s alternate infinite,
+                 animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s alternate infinite;
+}
+
 .heart_black {
     background-image: url(../images/heart_black.svg);
     background-size: 50%;

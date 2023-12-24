@@ -155,3 +155,53 @@
         transform: scale(0.5, 1);
     }
 }
+
+
+
+ @-webkit-keyframes animate-svg-stroke-1 {
+    0% {
+      stroke-dashoffset: 700.4426879882812px;
+      stroke-dasharray: 700.4426879882812px;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+      stroke-dasharray: 700.4426879882812px;
+    }
+  }
+  
+  @keyframes animate-svg-stroke-1 {
+    0% {
+      stroke-dashoffset: 700.4426879882812px;
+      stroke-dasharray: 700.4426879882812px;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+      stroke-dasharray: 700.4426879882812px;
+    }
+  }
+  
+  @-webkit-keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(0, 0, 0);
+    }
+  }
+  
+  @keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(0, 0, 0);
+    }
+  }
+  
+  
+  
+  
