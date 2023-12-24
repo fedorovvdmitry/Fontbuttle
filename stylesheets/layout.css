@@ -133,7 +133,7 @@ p {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 25vw;
+    height: 50vw;
     background-image: url(../images/line_blue.svg);
     background-size: 102%;
     animation: line_blue linear 1s infinite;
@@ -141,6 +141,16 @@ p {
 
 .line_blue:hover {
     animation-play-state: paused;
+}
+
+.line_blue_vertical {
+    display: block;
+    width: 12.5vw;
+    height: 25vw;
+    position: absolute;
+    top: 125vw;
+    right: 24.7vw;
+    z-index: -1;
 }
 
 .line_fourth {
@@ -287,6 +297,7 @@ p {
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
+    animation: tension 0.5s linear infinite;
 }
 
 .pixels2 {
