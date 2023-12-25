@@ -16,6 +16,15 @@
     }
 }
 
+@keyframes line_pexels_anim {
+    0% {
+        margin-left: -25vw;
+    }
+    100% {
+        margin-left: 0vw;
+    }
+}
+
 @keyframes line_yellow {
     0% {
         left: 0px;
