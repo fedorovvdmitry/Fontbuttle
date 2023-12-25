@@ -501,10 +501,11 @@ p {
     height: 25vw;
     position: absolute;
     bottom: 12.5vw;
-    left: 24.5vw;
+    left: 25vw;
     background-image: url(../images/ц.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    animation: appearance 1s linear alternate infinite;
 }
 
 /* Блоки */
