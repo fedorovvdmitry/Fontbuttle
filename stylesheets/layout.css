@@ -189,12 +189,21 @@ p {
     width: 8vw;
     height: 8vw;
     transition: 0.3s;
+    animation: scale29 linear 0.6s alternate infinite;
 }
 
 #literal29:hover {
     transform: scale(1.4);
     transition: 0.6s;
 
+}
+
+.literal14 {
+    background-image: url(../images/m.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    animation: colorplay 0.9s steps(1) infinite;
 }
 
 #literal21 {
@@ -243,6 +252,13 @@ p {
 
 .literal23 {
     background-image: url(../images/x.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.literal23:hover {
+    background-image: url(../images/x_stroke.svg);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -320,6 +336,8 @@ p {
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
+    animation: letter_zh 0.2s steps(1) alternate-reverse infinite;
+
 }
 
 .literal13 {
@@ -352,6 +370,20 @@ p {
     animation: heartbeat 1s infinite;
 }
 
+.heart {
+    background-image: url(../images/heart.svg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heart:hover {
+    background-image: url(../images/smile.svg);
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .literal21 {
     background-image: url(../images/у.svg);
     background-size: 70%;
@@ -373,6 +405,12 @@ p {
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.literal9:hover {
+    transform: rotate(180deg);
+    transition: 0.6s;
 }
 
 .literal6_2 {
@@ -400,6 +438,25 @@ p {
     background-image: url(../images/c_modul.svg);
     background-size: 102%;
     background-repeat: no-repeat;
+    animation: reversal19 1s linear alternate infinite;
+}
+
+.literal19_modul:hover {
+    animation-play-state: paused;
+}
+
+.litera27 {
+    background-image: url(../images/щ.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.litera27:hover {
+    background-image: url(../images/щ2.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .literal1 {
@@ -414,8 +471,13 @@ p {
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.2s;
 }
 
+.literal2:hover {
+    transform: rotate(170deg);
+    transition: 0.6s;
+}
 
 #link_portfolio {
     transition: 0.1s;
@@ -426,14 +488,24 @@ p {
     transition: 0.1s;
 }
 
-
-/* .h1battle {
+.bg {
     display: block;
-    position: relative;
-    height: 180px;
     width: 100%;
-    animation: h1font reverse linear 10s infinite;
-} */
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.literal24 {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    bottom: 12.5vw;
+    left: 24.5vw;
+    background-image: url(../images/ц.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 /* Блоки */
 

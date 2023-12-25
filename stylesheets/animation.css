@@ -106,9 +106,6 @@
 }
 
 @keyframes letter_y {
-    0% {
-        background-image: url(../images/У.svg);
-    }
     25% {
         background-image: url(../images/у2.svg);
     }
@@ -123,12 +120,58 @@
     }
 }
 
+@keyframes reversal19 {
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(-1, 1);
+    }
+}
+
+@keyframes letter_zh {
+    0% {
+        background-image: url(../images/ж.svg);
+    }
+    30% {
+        background-image: url(../images/ж2.svg);
+    }
+    70% {
+        background-image: url(../images/ж3.svg);
+    }
+}
+
 @keyframes reversal {
     0% {
         transform: scale(1, 1);
     }
     100% {
         transform: scale(-1, 1);
+    }
+}
+
+@keyframes scale29 {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+@keyframes colorplay {
+    0% {
+        background-color: #25FC21;
+    }
+    25% {
+        background-color: #F726F3;
+    }
+    50% {
+        background-color: #F5F747;
+    }
+    75% {
+        background-color: #ededed;
+
     }
 }
 

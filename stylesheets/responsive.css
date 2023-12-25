@@ -128,6 +128,12 @@
         height: 10vw;
     }
 
+    .literal24 {
+        bottom: 125vw;
+        right: 0vw;
+        left: auto;
+    }
+
     /* скрываем последние 4 блока в секции */
     .first .block:nth-of-type(4) {
         display: none;
