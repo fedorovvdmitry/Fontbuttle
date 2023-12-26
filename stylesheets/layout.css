@@ -504,6 +504,18 @@ p {
     animation: appearance 1s linear alternate infinite;
 }
 
+.literal12 {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    bottom: 50vw;
+    left: 12vw;
+    background-image: url(../images/k.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: appearance 0.2s linear alternate infinite;
+}
+
 /* Блоки */
 
 .sixth .block img {
@@ -513,6 +525,11 @@ p {
 .sixth .block:nth-of-type(6) {
     background-image: url(../images/pixels_green.svg);
     background-size: 102%;
+    animation: pixels 1s steps(1) infinite;
+}
+
+.sixth .block:nth-of-type(6):hover {
+    animation-play-state: paused;
 }
 
 

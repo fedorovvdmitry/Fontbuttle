@@ -25,6 +25,21 @@
     }
 }
 
+@keyframes pixels {
+    0% {
+        background-image: url(../images/pixels_green.svg);
+    }
+    25% {
+        background-image: url(../images/pixels2_green.svg);
+    }
+    50% {
+        background-image: url(../images/pixels3_green.svg);
+    }
+    75% {
+        background-image: url(../images/pixels4_green.svg);
+    }
+}
+
 @keyframes line_yellow {
     0% {
         left: 0px;
